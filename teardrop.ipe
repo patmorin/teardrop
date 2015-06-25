@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70005" creator="Ipe 7.1.4">
-<info created="D:20150611152112" modified="D:20150619071431"/>
+<info created="D:20150611152112" modified="D:20150625143912"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -593,6 +593,216 @@ h
 <path stroke="black">
 432.55 282.024 m
 432.55 257.744 l
+</path>
+</page>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="black" dash="dotted">
+240 672 m
+240 352 l
+244.001 352 l
+</path>
+<path matrix="0.25 0 0 1 16 -400" stroke="black">
+128 512 m
+128 832 l
+144 832 l
+144 512 l
+h
+</path>
+<text matrix="1 0 0 1 -72.3893 -400" transformations="translations" pos="280.389 483.637" stroke="black" type="label" width="30.441" height="6.918" depth="0" halign="center" valign="baseline">5&apos;=60&quot;</text>
+<path matrix="1 0 0 1 -80 -160" stroke="black" fill="black">
+128 592 m
+320 832 l
+</path>
+<path matrix="1 0 0 1 -76 -160" stroke="black" fill="black">
+128 592 m
+320 832 l
+</path>
+<path matrix="1 0 0 1 236 -160" stroke="black" fill="black">
+128 592 m
+320 832 l
+</path>
+<path matrix="1 0 0 1 240 -160" stroke="black" fill="black">
+128 592 m
+320 832 l
+</path>
+<path matrix="1 0 0 1 -80 -160" stroke="black" fill="black">
+320 832 m
+324 832 l
+</path>
+<path matrix="1 0 0 1 -80 -160" stroke="black" fill="black">
+636 832 m
+640 832 l
+</path>
+<path matrix="1 0 0 1 240 -480" stroke="black" fill="black">
+128 592 m
+320 832 l
+</path>
+<path matrix="1 0 0 1 -76 -472" stroke="black" fill="black">
+128 592 m
+320 832 l
+</path>
+<path matrix="1 0 0 1 236 -472" stroke="black" fill="black" dash="dotted">
+128 592 m
+320 832 l
+</path>
+<path matrix="1 0 0 1 -80 -160" stroke="black" fill="black">
+640 832 m
+640 512 l
+</path>
+<path matrix="1 0 0 1 -80 -160" stroke="black" fill="black">
+324 520 m
+342.667 520 l
+</path>
+<path matrix="1 0 0 1 -76 -160" stroke="black" fill="black">
+320 832 m
+320 512 l
+</path>
+<path matrix="1 0 0 1 -80 -160" stroke="black" fill="black" dash="dotted">
+324 512 m
+132 272 l
+</path>
+<path matrix="1 0 0 1 -80 -160" stroke="black" fill="black" dash="dotted">
+617.333 520 m
+636 520 l
+</path>
+<path matrix="1 0 0 1 -80 -160" stroke="black" fill="black" dash="dotted">
+636 520 m
+636 512 l
+</path>
+<path stroke="black" fill="black">
+560 352 m
+556 352 l
+</path>
+<path stroke="black" fill="black">
+556 352 m
+364 112 l
+</path>
+<path stroke="black" fill="gray">
+560 352 m
+556 352 l
+364 112 l
+368 112 l
+560 352 l
+</path>
+<path stroke="black" fill="black" dash="dotted">
+556 672 m
+556 352 l
+</path>
+<path stroke="black">
+52 122.667 m
+52 120 l
+364 120 l
+364 122.667 l
+h
+</path>
+<path matrix="1 0 0 1 -76 -469.333" stroke="black" fill="black">
+128 592 m
+320 832 l
+</path>
+<path matrix="1 0 0 1 236 -469.333" stroke="black" fill="black" dash="dotted">
+128 592 m
+320 832 l
+</path>
+<path matrix="0.25 0 0 1 332 -400" stroke="black">
+128 512 m
+128 832 l
+144 832 l
+144 512 l
+h
+</path>
+<path stroke="black">
+244 362.667 m
+556 362.667 l
+</path>
+<path stroke="black">
+244 360 m
+556 360 l
+</path>
+<text matrix="-0.00210773 -0.999998 0.999998 -0.00210773 -387.045 1033.41" transformations="translations" pos="280.389 483.637" stroke="black" type="label" width="235.669" height="8.422" depth="3.43" valign="baseline">cross member length: $60&quot;-2\times\frac{3}{4}&quot;-2\times1.5&quot;=55.5&quot;$</text>
+<text matrix="1 0 0 1 -109.775 240.042" transformations="translations" pos="280.389 483.637" stroke="black" type="label" width="174.675" height="8.422" depth="3.43" halign="center" valign="baseline">$5\times 5$ sheet width: $60&quot;-2\times\frac{3}{4}&quot;=58.5&quot;$</text>
+<path matrix="-1 0 0 1 416 0" stroke="black" fill="black">
+360 111.2 m
+360 112 l
+368 112 l
+368 96 l
+360 96 l
+360 96.8 l
+367.2 96.8 l
+367.2 111.2 l
+360 111.2 l
+</path>
+<path matrix="1 0 0 1 0 -0" stroke="black" fill="black">
+360 111.2 m
+360 112 l
+368 112 l
+368 96 l
+360 96 l
+360 96.8 l
+367.2 96.8 l
+367.2 111.2 l
+360 111.2 l
+</path>
+<text matrix="1 0 0 1 16 8" transformations="translations" pos="192 96" stroke="black" type="label" width="54.601" height="6.918" depth="0" halign="center" valign="center">trailer frame</text>
+<text transformations="translations" pos="96 800" stroke="black" type="label" width="251.197" height="7.473" depth="2.49" valign="baseline">base: 2 5&apos;x5&apos; sheets of 1/2&quot; plywood on top of 2x4 frame.</text>
+<text transformations="translations" pos="96 784" stroke="black" type="label" width="284.074" height="6.918" depth="0" valign="baseline">IronTon frame has five cross members: Use four 2x2 and one 2x4</text>
+<text transformations="translations" pos="96 768" stroke="black" type="label" width="545.013" height="6.918" depth="0" valign="baseline">Do I need to cut the IronTon cross members? Will the bolts interfere with the walls? The bolts are M10=16mm in diameter</text>
+<path matrix="0.5 0 0 0.5 -12 88" stroke="black">
+128 64 m
+128 48 l
+144 48 l
+144 64 l
+h
+</path>
+<path matrix="1 0 0 1 -72 -160" stroke="black" fill="black" dash="dotted">
+324 512 m
+132 272 l
+</path>
+<path matrix="1 0 0 1 -72 -152" stroke="black" fill="black" dash="dotted">
+324 512 m
+132 272 l
+</path>
+<path matrix="0.5 0 0 0.5 292 88" stroke="black">
+128 64 m
+128 48 l
+144 48 l
+144 64 l
+h
+</path>
+<path stroke="black">
+60 120 m
+60 112 l
+356 112 l
+356 120 l
+h
+</path>
+<text transformations="translations" pos="336 688" stroke="black" type="minipage" width="160" height="95.506" depth="90.74" valign="top">Do I need to cut the IronTon cross members? Will the bolts interfere with the walls? 
+
+The bolts are M10=16mm=.63&quot; in diameter (across the flats) and 10mm=.39&quot; in height.  They&apos;re 17.77mm=.7&quot; across the corners.
+
+Assuming the frame pieces are 1.5&quot; wide (measure this), the bolts will go nearly halfway into my .75&quot; wall
+
+Renting a chop saw is starting to look like a good idea. But, then we might have some real issues with the tongue---Read up on this.
+
+Consider also using M8 bolts with washers.</text>
+<path matrix="-4 0 0 4 1761.77 217.992" stroke="black" fill="black">
+360 111.2 m
+360 112 l
+368 112 l
+368 96 l
+360 96 l
+360 96.8 l
+367.2 96.8 l
+367.2 111.2 l
+360 111.2 l
+</path>
+<path matrix="0.84 0 0 0.525 30.2547 355.192" stroke="black">
+320 608 m
+320 592 l
+336 592 l
+336 608 l
+h
 </path>
 </page>
 </ipe>
