@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70005" creator="Ipe 7.1.4">
-<info created="D:20150611152112" modified="D:20150625143912"/>
+<info created="D:20150611152112" modified="D:20150629153736"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -639,7 +639,7 @@ h
 128 592 m
 320 832 l
 </path>
-<path matrix="1 0 0 1 -76 -472" stroke="black" fill="black">
+<path matrix="1 0 0 1 -76 -472" stroke="black" fill="black" dash="dotted">
 128 592 m
 320 832 l
 </path>
@@ -675,16 +675,9 @@ h
 560 352 m
 556 352 l
 </path>
-<path stroke="black" fill="black">
+<path stroke="black" fill="black" dash="dotted">
 556 352 m
 364 112 l
-</path>
-<path stroke="black" fill="gray">
-560 352 m
-556 352 l
-364 112 l
-368 112 l
-560 352 l
 </path>
 <path stroke="black" fill="black" dash="dotted">
 556 672 m
@@ -721,8 +714,8 @@ h
 556 360 l
 </path>
 <text matrix="-0.00210773 -0.999998 0.999998 -0.00210773 -387.045 1033.41" transformations="translations" pos="280.389 483.637" stroke="black" type="label" width="235.669" height="8.422" depth="3.43" valign="baseline">cross member length: $60&quot;-2\times\frac{3}{4}&quot;-2\times1.5&quot;=55.5&quot;$</text>
-<text matrix="1 0 0 1 -109.775 240.042" transformations="translations" pos="280.389 483.637" stroke="black" type="label" width="174.675" height="8.422" depth="3.43" halign="center" valign="baseline">$5\times 5$ sheet width: $60&quot;-2\times\frac{3}{4}&quot;=58.5&quot;$</text>
-<path matrix="-1 0 0 1 416 0" stroke="black" fill="black">
+<text matrix="1 0 0 1 -184.389 252.363" transformations="translations" pos="280.389 483.637" stroke="black" type="label" width="174.675" height="8.422" depth="3.43" valign="baseline">$5\times 5$ sheet width: $60&quot;-2\times\frac{3}{4}&quot;=58.5&quot;$</text>
+<path matrix="-1 0 0 1 416 0" stroke="black" fill="black" join="1">
 360 111.2 m
 360 112 l
 368 112 l
@@ -733,7 +726,7 @@ h
 367.2 111.2 l
 360 111.2 l
 </path>
-<path matrix="1 0 0 1 0 -0" stroke="black" fill="black">
+<path stroke="black" fill="black" join="1">
 360 111.2 m
 360 112 l
 368 112 l
@@ -747,7 +740,6 @@ h
 <text matrix="1 0 0 1 16 8" transformations="translations" pos="192 96" stroke="black" type="label" width="54.601" height="6.918" depth="0" halign="center" valign="center">trailer frame</text>
 <text transformations="translations" pos="96 800" stroke="black" type="label" width="251.197" height="7.473" depth="2.49" valign="baseline">base: 2 5&apos;x5&apos; sheets of 1/2&quot; plywood on top of 2x4 frame.</text>
 <text transformations="translations" pos="96 784" stroke="black" type="label" width="284.074" height="6.918" depth="0" valign="baseline">IronTon frame has five cross members: Use four 2x2 and one 2x4</text>
-<text transformations="translations" pos="96 768" stroke="black" type="label" width="545.013" height="6.918" depth="0" valign="baseline">Do I need to cut the IronTon cross members? Will the bolts interfere with the walls? The bolts are M10=16mm in diameter</text>
 <path matrix="0.5 0 0 0.5 -12 88" stroke="black">
 128 64 m
 128 48 l
@@ -777,16 +769,14 @@ h
 356 120 l
 h
 </path>
-<text transformations="translations" pos="336 688" stroke="black" type="minipage" width="160" height="95.506" depth="90.74" valign="top">Do I need to cut the IronTon cross members? Will the bolts interfere with the walls? 
+<text transformations="translations" pos="336 688" stroke="black" type="minipage" width="160" height="108.414" depth="103.68" valign="top">Note: The bolts on the IronTon trailer are M10, so they&apos;re about .7&quot; across the corners.
 
-The bolts are M10=16mm=.63&quot; in diameter (across the flats) and 10mm=.39&quot; in height.  They&apos;re 17.77mm=.7&quot; across the corners.
+Assuming the rails are 1.5&quot; wide, these bolts will be centered right where my walls meet my 2x2&apos;s. I&apos;ll have to countersink both on the edges of the 2x2&apos;s and on the edges of the walls (on the walls, this will will cut about halfway through the .75&quot; walls).
 
-Assuming the frame pieces are 1.5&quot; wide (measure this), the bolts will go nearly halfway into my .75&quot; wall
+The easiest wayt to do this will be to clamp something to the edge I&apos;m countersinking.
 
-Renting a chop saw is starting to look like a good idea. But, then we might have some real issues with the tongue---Read up on this.
-
-Consider also using M8 bolts with washers.</text>
-<path matrix="-4 0 0 4 1761.77 217.992" stroke="black" fill="black">
+Other solution: Rent a cut-off saw and make the whole trailer smaller, as described in the Generic Benroy plans.</text>
+<path matrix="-4 0 0 4 1744.92 139.315" stroke="black" fill="black" join="1">
 360 111.2 m
 360 112 l
 368 112 l
@@ -797,12 +787,219 @@ Consider also using M8 bolts with washers.</text>
 367.2 111.2 l
 360 111.2 l
 </path>
-<path matrix="0.84 0 0 0.525 30.2547 355.192" stroke="black">
+<path matrix="0.84 0 0 0.525 13.4022 276.515" stroke="black">
 320 608 m
 320 592 l
 336 592 l
 336 608 l
 h
 </path>
+<path matrix="2.66667 0 0 2.66667 -436.416 -735.352" stroke="black">
+272 512 m
+272 496 l
+288 496 l
+288 512 l
+h
+</path>
+<path matrix="1 0 0 1 -16.8525 -78.6768" stroke="black">
+305.77 665.992 m
+305.77 746.974 l
+</path>
+<path matrix="1 0 0 1 -16.8525 -78.6768" stroke="black">
+305.77 746.974 m
+305.77 665.713 l
+289.77 665.992 l
+289.77 743.037 l
+</path>
+<path matrix="0.756 0 0 0.3675 40.9542 360.675" stroke="black">
+320 608 m
+320 592 l
+336 592 l
+336 608 l
+h
+</path>
+<path matrix="0.9 0 0 0.7 13.7651 120.161" stroke="black">
+303.035 654.392 m
+303.035 649.547 l
+308.425 649.547 l
+308.425 654.392 l
+</path>
+<path matrix="1 0 0 1 240 -496" stroke="black" fill="black">
+128 592 m
+320 832 l
+</path>
+<path stroke="black">
+560 336 m
+560 352 l
+</path>
+<path stroke="black" fill="black">
+368 96 m
+560 336 l
+560 352 l
+368 112 l
+</path>
+<path matrix="1 0 0 1 228 -472" stroke="black" fill="black" dash="dotted">
+128 592 m
+320 832 l
+</path>
+<text matrix="1 0 0 1 0 -16" transformations="translations" pos="96 784" stroke="black" type="label" width="280.089" height="7.473" depth="2.49" valign="baseline">The two 5x5 sheets will meet on the central (2x4) cross member</text>
+<text transformations="translations" pos="96 704" stroke="black" type="label" width="368.342" height="6.926" depth="1.93" valign="baseline">Tip: If I can&apos;t get straight 2x2 lumber, buy 2x4&apos;s and split them with the table saw.</text>
+</page>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" matrix="0.965926 0.258819 -0.258819 0.965926 189.158 13.2001" stroke="black">
+128 714 m
+128 710 l
+</path>
+<path matrix="0.965926 -0.258819 0.258819 0.965926 -173.893 129.151" stroke="black">
+320 714 m
+320 710 l
+</path>
+<path stroke="black">
+128 736 m
+320 736 l
+</path>
+<path stroke="black">
+129.035 732.136 m
+318.965 732.136 l
+</path>
+<path matrix="0.333333 0 0 0.333333 86.3686 492.136" stroke="black">
+128 720 m
+128 720 l
+144 720 l
+144 720 l
+h
+</path>
+<path matrix="0.333333 0 0 0.333333 81.0349 492.136" stroke="black">
+128 720 m
+128 720 l
+144 720 l
+144 720 l
+h
+</path>
+<path matrix="0.333333 0 0 0.333333 75.7011 492.136" stroke="black">
+128 720 m
+128 720 l
+144 720 l
+144 720 l
+h
+</path>
+<path matrix="0.333333 0 0 0.333333 281.631 492.136" stroke="black">
+128 720 m
+128 720 l
+144 720 l
+144 720 l
+h
+</path>
+<path matrix="0.333333 0 0 0.333333 276.298 492.136" stroke="black">
+128 720 m
+128 720 l
+144 720 l
+144 720 l
+h
+</path>
+<path matrix="0.333333 0 0 0.333333 270.964 492.136" stroke="black">
+128 720 m
+128 720 l
+144 720 l
+144 720 l
+h
+</path>
+<path matrix="1 0 0 0.333333 0 488.09" stroke="black">
+329.631 732.136 m
+329.631 720 l
+118.368 720 l
+118.368 732.136 l
+h
+</path>
+<path matrix="0.965926 0.258819 -0.258819 0.965926 188.491 13.2001" stroke="black">
+128 714 m
+128 710 l
+</path>
+<path matrix="0.965926 -0.258819 0.258819 0.965926 -173.226 129.151" stroke="black">
+320 714 m
+320 710 l
+</path>
+<path stroke="black">
+320.667 736 m
+352 736 l
+</path>
+<path stroke="black">
+319.632 732.137 m
+352 732.137 l
+</path>
+<path stroke="black">
+127.333 736 m
+96 736 l
+</path>
+<path stroke="black">
+128.368 732.136 m
+96 732.136 l
+</path>
+<use name="mark/disk(sx)" pos="128 736" size="normal" stroke="black"/>
+<text matrix="1 0 0 1 31.9995 0" transformations="translations" pos="192 720" stroke="black" type="label" width="50.145" height="6.918" depth="0" halign="center" valign="baseline">inner frame</text>
+<text matrix="1 0 0 1 31.9995 3" transformations="translations" pos="192 736" stroke="black" type="label" width="19.676" height="6.918" depth="0" halign="center" valign="baseline">door</text>
+<path stroke="black" arrow="normal/normal">
+256 784 m
+144.484 784 l
+</path>
+<text matrix="1 0 0 1 26 2" transformations="translations" pos="176 784" stroke="black" type="label" width="21.06" height="6.918" depth="0" halign="center" valign="baseline">front</text>
+<path stroke="black">
+134.369 732.136 m
+134.369 728.09 l
+</path>
+<path stroke="black">
+313.63 732.136 m
+313.63 728.09 l
+</path>
+<path matrix="0.25 0 0 0.0625 234.432 683.136" stroke="black" fill="black">
+320 784 m
+320 768 l
+336 768 l
+336 784 l
+h
+</path>
+<path matrix="0.04 0 0 0.04 304.912 701.416" stroke="black" fill="black">
+272 768 m
+288 800 l
+304 768 l
+272 768 l
+</path>
+<text transformations="translations" pos="304 720" stroke="black" type="label" width="149.052" height="6.926" depth="1.93" valign="baseline">magnet and screw or two magnets</text>
+<path stroke="black" dash="dotted" arrow="normal/normal">
+318.964 732.136 m
+189.928 0 0 189.928 129.035 732.136 297.02 820.759 a
+</path>
+<text matrix="1 0 0 1 -4 -12" transformations="translations" pos="112 752" stroke="black" type="label" width="50.367" height="6.926" depth="1.93" valign="baseline">piano hinge</text>
+<path matrix="0.25 0 0 0.0625 49.8356 683.136" stroke="black" fill="black">
+320 784 m
+320 768 l
+336 768 l
+336 784 l
+h
+</path>
+<path matrix="1 0 0 0.5 -0 312.468" stroke="black">
+329.631 728.09 m
+329.631 720 l
+118.368 720 l
+118.368 728.09 l
+h
+</path>
+<path matrix="0.25 0 0 0.0625 49.4248 627.513" stroke="black" fill="black">
+320 784 m
+320 768 l
+336 768 l
+336 784 l
+h
+</path>
+<path matrix="0.25 0 0 0.0625 235 627.513" stroke="black" fill="black">
+320 784 m
+320 768 l
+336 768 l
+336 784 l
+h
+</path>
+<text matrix="1 0 0 1 31.9995 8" transformations="translations" pos="192 656" stroke="black" type="label" width="26.65" height="4.289" depth="0" halign="center" valign="baseline">screen</text>
 </page>
 </ipe>
